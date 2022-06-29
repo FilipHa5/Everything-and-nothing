@@ -4,7 +4,6 @@ from matplotlib import pyplot
 
 def foo(num_iter ,c ):
     matrix = numpy.zeros((200,200))
-    #matrix[50,50] = 1
     rows, columns = matrix.shape
     for row in range(0,rows,random.randint(1,7)):
         for column in range(0,columns,random.randint(1,7)):
